@@ -199,7 +199,7 @@ function loadRules(value) {
     rules.push(value[i]);
   }
   ruleList.refresh();
-  storeIdentifier(ruleList);
+  freezeIdentifier(ruleList);
 }
 
 function loadScripts(value) {
@@ -208,7 +208,8 @@ function loadScripts(value) {
     scripts.push(value[i]);
   }
   scriptList.refresh();
-  storeIdentifier(scriptList);
+  freezeIdentifier(scriptList);
+  updateScriptItems();
 }
 
 function serialize(list) {
@@ -223,8 +224,8 @@ function save() {
   saveToFile('../setting.json', serialize(rules));
   saveToFile('../scripts.json', serialize(scripts));
   dirty= false;
-  storeIdentifier(ruleList);
-  storeIdentifier(scriptList);
+  freezeIdentifier(ruleList);
+  freezeIdentifier(scriptList);
 }
 
 function reload() {
@@ -237,7 +238,7 @@ function reload() {
   dirty = false;
 }
 
-function storeIdentifier(list) {
+function freezeIdentifier(list) {
   $('.itemline:not(.newline) div[property=identifier]', list.contents)
   .addClass('readonly');
 }
@@ -276,7 +277,7 @@ $(document).ready(function() {
     ruleList.startEdit(ruleList.newLine);
   }).button();
   $('#addScript').click(function() {
-    scriptList.startEdit(script.newLine);
+    scriptList.startEdit(scriptList.newLine);
   }).button();
   $('#deleteRule').click(function() {
     ruleList.remove(ruleList.selectedLine);
