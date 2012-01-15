@@ -7,6 +7,34 @@ var scripts = [];
 
 var dirty = false;
 
+function setScriptAutoComplete(e) {
+  var last = /[^\s]*$/;
+
+  var obj = $('input', e.target);
+  $(obj).bind("keydown", function(event) {
+    if (event.keyCode === $.ui.keyCode.TAB &&
+    $(this).data("autocomplete").menu.active) {
+      event.preventDefault();
+    }
+  })
+  .autocomplete({
+    minLength: 0,
+    source: function(request, response) {
+      // delegate back to autocomplete, but extract the last term
+      response($.ui.autocomplete.filter(
+        scriptItems, last.exec(request.term)[0]));
+    },
+    focus: function() {
+      // prevent value inserted on focus
+      return false;
+    },
+    select: function(event, ui) {
+      this.value = this.value.replace(last, ui.item.value);
+      return false;
+    }
+  });
+}
+
 var ruleProps = [ {
   header: "Identifier",
   property: "identifier",
@@ -47,7 +75,10 @@ var ruleProps = [ {
 }, {
   header: "Helper Script",
   property: "script",
-  type: "input"
+  type: "input",
+  events: {
+    create: setScriptAutoComplete
+  }
 }];
 
 var currentScript = -1;
@@ -244,6 +275,16 @@ function freezeIdentifier(list) {
 }
 
 var scriptList, ruleList;
+
+var scriptItems = [];
+
+function updateScriptItems() {
+  scriptItems = [];
+  for (var i = 0; i < scripts.length; ++i) {
+    scriptItems.push(scripts[i].identifier);
+  }
+}
+
 $(document).ready(function() {
   scriptList = new List({
     props: scriptProps,
@@ -252,6 +293,7 @@ $(document).ready(function() {
   });
   $(scriptList).bind('updated', function() {
     dirty = true;
+    updateScriptItems();
   });
   scriptList.init();
 
@@ -310,3 +352,4 @@ $(document).ready(function() {
     cache: false
   });
 });
+
