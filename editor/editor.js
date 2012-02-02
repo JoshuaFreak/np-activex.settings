@@ -128,6 +128,15 @@ var scriptProps = [{
   header: "Version",
   type: "input"
 }, {
+  property: "context",
+  header: "Context",
+  type: "select",
+  option: "static",
+  options: [
+    {value: "page", text: "Page"},
+    {value: "extension", text: "Extension"}
+  ]
+}, {
   property: "show",
   header: "Show",
   type: "button",
