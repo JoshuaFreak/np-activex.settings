@@ -1,0 +1,26 @@
+{
+  "i_cgbchina": {
+    "identifier": "i_cgbchina",
+    "type": "wild",
+    "value": "https://*.cgbchina.com.cn/*",
+    "description": "广发银行控件暂无法使用",
+    "issueId": "71",
+    "url": ""
+  },
+  "i_95559": {
+    "identifier": "i_95559",
+    "type": "wild",
+    "value": "https://*.95559.com.cn/*",
+    "description": "交通银行控件暂无法使用",
+    "issueId": "85",
+    "url": ""
+  },
+  "i_ecitic": {
+    "identifier": "i_ecitic",
+    "type": "wild",
+    "value": "https://*.ecitic.com/*",
+    "description": "中信银行控件存在安全问题，将不再提供支持",
+    "issueId": "55",
+    "url": ""
+  }
+}

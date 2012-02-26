@@ -1,2 +1,116 @@
-[
-]
+{
+  "ieevent": {
+    "identifier": "ieevent",
+    "url": "IEEvent.js",
+    "version": "1",
+    "context": "page"
+  },
+  "popup": {
+    "identifier": "popup",
+    "url": "popup.js",
+    "version": "1",
+    "context": "page"
+  },
+  "clsid": {
+    "identifier": "clsid",
+    "url": "clsid.js",
+    "version": "1",
+    "context": "page"
+  },
+  "dynamic": {
+    "identifier": "dynamic",
+    "url": "dynamic.js",
+    "version": "1",
+    "context": "page"
+  },
+  "createElement": {
+    "identifier": "createElement",
+    "url": "createElement.js",
+    "version": 1,
+    "context": "page"
+  },
+  "none2block": {
+    "identifier": "none2block",
+    "url": "none2block.js",
+    "version": "1",
+    "context": "extension"
+  },
+  "_cmb_pay": {
+    "identifier": "_cmb_pay",
+    "url": "cmb_pay.js",
+    "version": "1",
+    "context": "page"
+  },
+  "_bugu_patch": {
+    "identifier": "_bugu_patch",
+    "url": "bugu_patch.js",
+    "version": "1",
+    "context": "page"
+  },
+  "map_id_name": {
+    "identifier": "map_id_name",
+    "url": "map_id_name.js",
+    "version": 1,
+    "context": "extension"
+  },
+  "_boc_md5": {
+    "identifier": "_boc_md5",
+    "url": "_boc_md5.js",
+    "version": 1,
+    "context": "page"
+  },
+  "_boc_resources_zh_CN_CurCode": {
+    "identifier": "_boc_resources_zh_CN_CurCode",
+    "url": "_boc_resources_zh_CN_CurCode.js",
+    "version": 1,
+    "context": "page"
+  },
+  "_boc_common": {
+    "identifier": "_boc_common",
+    "url": "_boc_common.js",
+    "version": 1,
+    "context": "page"
+  },
+  "_boc_PageLimit": {
+    "identifier": "_boc_PageLimit",
+    "url": "_boc_PageLimit.js",
+    "version": "1",
+    "context": "page"
+  },
+  "_boc_FormCheck.js": {
+    "identifier": "_boc_FormCheck.js",
+    "url": "_boc_FormCheck.js",
+    "version": 1,
+    "context": "page"
+  },
+  "_boc_createElement": {
+    "identifier": "_boc_createElement",
+    "url": "_boc_createElement.js",
+    "version": "1",
+    "context": "page"
+  },
+  "_boc_calendar": {
+    "identifier": "_boc_calendar",
+    "url": "_boc_calendar.js",
+    "version": 1,
+    "context": "page"
+  },
+  "_boc_FormatMoneyShow": {
+    "identifier": "_boc_FormatMoneyShow",
+    "url": "_boc_FormatMoneyShow.js",
+    "version": 1,
+    "context": "page"
+  },
+  "_boc_FormatMoneyBase": {
+    "identifier": "_boc_FormatMoneyBase",
+    "url": "_boc_FormatMoneyBase.js",
+    "version": 1,
+    "context": "page"
+  },
+  "ieidname": {
+    "identifier": "ieidname",
+    "url": "ieidname.js",
+    "version": "1",
+    "context": "page"
+  }
+}
