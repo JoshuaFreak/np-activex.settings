@@ -117,7 +117,7 @@
     "keyword": "95559",
     "testUrl": "https://pbank.95559.com.cn/personbank/common_logon.jsp",
     "userAgent": "",
-    "script": ""
+    "script": "none2block"
   },
   "s_pptv": {
     "identifier": "s_pptv",
@@ -177,6 +177,6 @@
     "keyword": "ecitic",
     "testUrl": "https://e.bank.ecitic.com/perbank5/signIn.do",
     "userAgent": "",
-    "script": "ieevent dynamic"
+    "script": "ieevent dynamic none2block"
   }
 }
