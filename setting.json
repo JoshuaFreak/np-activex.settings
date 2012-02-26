@@ -7,7 +7,7 @@
     "keyword": "icbc",
     "testUrl": "https://mybank.icbc.com.cn/icbc/perbank/index.jsp",
     "userAgent": "ie9",
-    "script": "createElement none2block"
+    "script": "createElement none2block formid"
   },
   "s_BOC": {
     "identifier": "s_BOC",
@@ -37,7 +37,7 @@
     "keyword": "cmbchina",
     "testUrl": "https://pbnj.ebank.cmbchina.com/CmbBank_GenShell/UI/GenShellPC/Login/Login.aspx",
     "userAgent": "ie9",
-    "script": "_cmb_pay ieevent popup"
+    "script": "_cmb_pay ieevent popup documentid"
   },
   "s_psbc": {
     "identifier": "s_psbc",

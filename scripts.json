@@ -32,7 +32,7 @@
   "none2block": {
     "identifier": "none2block",
     "url": "none2block.js",
-    "version": "1",
+    "version": 2,
     "context": "extension"
   },
   "_cmb_pay": {
@@ -112,5 +112,17 @@
     "url": "ieidname.js",
     "version": "1",
     "context": "page"
+  },
+  "formid": {
+    "identifier": "formid",
+    "url": "formid.js",
+    "version": 1,
+    "context": "extension"
+  },
+  "documentid": {
+    "identifier": "documentid",
+    "url": "documentid.js",
+    "version": 1,
+    "context": "extension"
   }
 }
