@@ -186,7 +186,7 @@
     "value": "http://*.poco.cn/*",
     "keyword": "poco",
     "testUrl": "http://my.poco.cn/album/album_bath_upload.iframe.php?set_hash=&test=v2",
-    "userAgent": "",
+    "userAgent": "ie9",
     "script": "ieevent"
   }
 }
