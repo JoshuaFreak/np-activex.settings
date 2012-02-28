@@ -188,5 +188,15 @@
     "testUrl": "http://my.poco.cn/album/album_bath_upload.iframe.php?set_hash=&test=v2",
     "userAgent": "ie9",
     "script": "ieevent"
+  },
+  "s_msxml": {
+    "identifier": "s_msxml",
+    "title": "MSXML data source loader",
+    "type": "clsid",
+    "value": "{550dda30-0541-11d2-9ca9-0060b0ec3d39}",
+    "keyword": "",
+    "testUrl": "",
+    "userAgent": "",
+    "script": ""
   }
 }
