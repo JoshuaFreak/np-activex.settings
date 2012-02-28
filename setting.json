@@ -37,7 +37,7 @@
     "keyword": "cmbchina",
     "testUrl": "https://pbnj.ebank.cmbchina.com/CmbBank_GenShell/UI/GenShellPC/Login/Login.aspx",
     "userAgent": "ie9",
-    "script": "_cmb_pay ieevent popup documentid"
+    "script": "_cmb_pay ieevent popup documentid dynamic"
   },
   "s_psbc": {
     "identifier": "s_psbc",

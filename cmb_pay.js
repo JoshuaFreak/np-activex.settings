@@ -8,6 +8,33 @@
         }
       } (ShowPayPage);
     }
+    if (window.OpenWnd) {
+      var inputs = document.querySelectorAll('div > input[type=hidden]');
+      for (var i = 0; i < inputs.length; ++i) {
+        window[inputs[i].name] = inputs[i];
+      }
+    }
+    function patchLoginSwitch(fncName) {
+      if (!(window[fncName])) {
+        return;
+      }
+      window[fncName] = function(orig) {
+        return function(par) {
+          orig(par);
+          MobileNo_Ctrl.PasswdCtrl = false;
+          EMail_Ctrl.PasswdCtrl = false;
+          NetBankUser_Ctrl.PasswdCtrl = false;
+          DebitCardNo_Ctrl.PasswdCtrl = false;
+          CreditCardNo_Ctrl.PasswdCtrl = false;
+          IdNo_Ctrl.PasswdCtrl = false;
+          BookNo_Ctrl.PasswdCtrl = false;
+        }
+      } (window[fncName]);
+    }
+    patchLoginSwitch('onCreditCardLoginTypeChange');
+    patchLoginSwitch('onEALoginTypeChange');
+    patchLoginSwitch('showLoginEntry');
+
     CallbackCheckClient = function() {};
   }
   if (document.readyState == 'complete') {
