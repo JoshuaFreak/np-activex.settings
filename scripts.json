@@ -20,7 +20,7 @@
   "dynamic": {
     "identifier": "dynamic",
     "url": "dynamic.js",
-    "version": "1",
+    "version": "2",
     "context": "page"
   },
   "createElement": {

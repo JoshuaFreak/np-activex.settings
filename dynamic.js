@@ -14,13 +14,14 @@
       if (!document.body) document.body=document.createElement("body");
       hiddenDiv = document.createElement("div");
       hiddenDiv.id = hiddenDivId;
-      hiddenDiv.setAttribute("style", "display:hidden; width:0px; height:0px");
+      hiddenDiv.setAttribute("style", "width:0px; height:0px");
       document.body.insertBefore(hiddenDiv, document.body.firstChild)
     }
     var obj = document.createElement("object");
     obj.setAttribute("type", "application/x-itst-activex");
     obj.setAttribute("progid", progid);
-    obj.setAttribute("style", "display:hidden; width:0px; height:0px");
+    obj.setAttribute("style", "width:0px; height:0px");
+    obj.setAttribute("dynamic", "");
     hiddenDiv.appendChild(obj);
     return obj.object
   }
