@@ -178,5 +178,15 @@
     "testUrl": "https://e.bank.ecitic.com/perbank5/signIn.do",
     "userAgent": "",
     "script": "ieevent dynamic none2block"
+  },
+  "s_poco": {
+    "identifier": "s_poco",
+    "title": "Poco图片上传",
+    "type": "wild",
+    "value": "http://*.poco.cn/*",
+    "keyword": "poco",
+    "testUrl": "http://my.poco.cn/album/album_bath_upload.iframe.php?set_hash=&test=v2",
+    "userAgent": "",
+    "script": "ieevent"
   }
 }
