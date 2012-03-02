@@ -198,5 +198,15 @@
     "testUrl": "",
     "userAgent": "",
     "script": ""
+  },
+  "s_logmein": {
+    "identifier": "s_logmein",
+    "title": "LogMeIn Remote control",
+    "type": "wild",
+    "value": "https://*.logmein.com/*",
+    "keyword": "logmein",
+    "testUrl": "https://test-pc-yldoltovxd.app03-22.logmein.com/default.html?go=r&rawtnl=31645176_0&gwsid=_Im9fKLtuXU9tdD3gOj10r6OPDETjzwewTm",
+    "userAgent": "ie9",
+    "script": ""
   }
 }
