@@ -97,7 +97,7 @@
     "keyword": "cgbchina",
     "testUrl": "https://ebanks.cgbchina.com.cn/perbank/",
     "userAgent": "",
-    "script": ""
+    "script": "cpuClass"
   },
   "s_hxb": {
     "identifier": "s_hxb",
