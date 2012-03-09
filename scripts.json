@@ -136,5 +136,11 @@
     "url": "95559_submit.js",
     "version": 2,
     "context": "page"
+  },
+  "cebpay": {
+    "identifier": "cebpay",
+    "url": "cebpay.js",
+    "version": 1,
+    "context": "page"
   }
 }

@@ -87,7 +87,7 @@
     "keyword": "cebbank",
     "testUrl": "https://www.cebbank.com/per/perlogin1.do",
     "userAgent": "",
-    "script": ""
+    "script": "ieevent ieidname cebpay"
   },
   "s_cgbchina": {
     "identifier": "s_cgbchina",
