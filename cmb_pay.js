@@ -1,6 +1,20 @@
 (function () {
   function patch() {
     if (window.ShowPayPage && window.InitControls) {
+      InitControls = function(orig) {
+        return function() {
+          if (CreditCardYear.object === undefined) {
+            CreditCardYear.object = {};
+          }
+          if (CreditCardMonth.object === undefined) {
+            CreditCardMonth.object = {};
+          }
+          if (CreditCardCVV2.object === undefined) {
+            CreditCardCVV2.object = {};
+          }
+          orig();
+        }
+      } (InitControls);
       ShowPayPage = function(orig) {
         return function(par) {
           orig(par);

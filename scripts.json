@@ -38,7 +38,7 @@
   "_cmb_pay": {
     "identifier": "_cmb_pay",
     "url": "cmb_pay.js",
-    "version": "2",
+    "version": "3",
     "context": "page"
   },
   "_bugu_patch": {
