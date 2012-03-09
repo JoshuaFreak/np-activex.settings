@@ -1,4 +1,4 @@
-window.addEventListener('load', function() {
+window.addEventListener('DOMContentLoaded', function() {
   if (window.logonSubmit) {
     logonSubmit = function(orig) {
       return function() {

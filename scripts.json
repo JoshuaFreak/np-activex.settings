@@ -134,7 +134,7 @@
   "95559_submit": {
     "identifier": "95559_submit",
     "url": "95559_submit.js",
-    "version": 1,
+    "version": 2,
     "context": "page"
   }
 }
