@@ -38,5 +38,13 @@
     "description": "上海银行目前暂不支持",
     "issueId": "101",
     "url": ""
+  },
+  "y_ccb": {
+    "identifier": "y_ccb",
+    "type": "wild",
+    "value": "https://*.ccb.com.cn/*",
+    "description": "建行只需安装官方的Firefox控件即可使用普通U盾支付",
+    "issueId": "-1",
+    "url": "http://www.ccb.com/cn/jump/download.htm"
   }
 }
