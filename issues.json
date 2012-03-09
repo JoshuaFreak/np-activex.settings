@@ -30,5 +30,13 @@
     "description": "MS xml data loader is not supported now.",
     "issueId": "87",
     "url": ""
+  },
+  "i_shbank": {
+    "identifier": "i_shbank",
+    "type": "wild",
+    "value": "https://*.bankofshanghai.com/*",
+    "description": "上海银行目前暂不支持",
+    "issueId": "101",
+    "url": ""
   }
 }
