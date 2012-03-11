@@ -166,5 +166,12 @@
     "version": 1,
     "context": "page",
     "checksum": 1897929979
+  },
+  "_poco_upload": {
+    "identifier": "_poco_upload",
+    "url": "poco_upload.js",
+    "version": "1",
+    "context": "page",
+    "checksum": 2052739852
   }
 }

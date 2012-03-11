@@ -187,7 +187,7 @@
     "keyword": "poco",
     "testUrl": "http://my.poco.cn/album/album_bath_upload.iframe.php?set_hash=&test=v2",
     "userAgent": "ie9",
-    "script": "ieevent"
+    "script": "ieevent _poco_upload"
   },
   "s_msxml": {
     "identifier": "s_msxml",
