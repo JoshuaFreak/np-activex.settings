@@ -167,7 +167,7 @@
     "keyword": "cmbc",
     "testUrl": "https://business.cmbc.com.cn/index_Private_pri.html",
     "userAgent": "",
-    "script": ""
+    "script": "none2block"
   },
   "e_ecitic": {
     "identifier": "e_ecitic",
