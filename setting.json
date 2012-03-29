@@ -208,5 +208,15 @@
     "testUrl": "https://test-pc-yldoltovxd.app03-22.logmein.com/default.html?go=r&rawtnl=31645176_0&gwsid=_Im9fKLtuXU9tdD3gOj10r6OPDETjzwewTm",
     "userAgent": "ie9",
     "script": ""
+  },
+  "s_tipzap": {
+    "identifier": "s_tipzap",
+    "title": "TipZap media player",
+    "type": "wild",
+    "value": "http://*.tiztap.com/*",
+    "keyword": "tipzap",
+    "testUrl": "http://play.tiztap.com/play_user_music.asp?id=48851&id=48850&id=48849&id=48848&id=48847&id=48843&id=48842&id=48841&id=48840&id=48839&id=48838&id=48837&id=48836&id=48835&id=48834&id=48829&id=48827&id=48826&id=48825&id=48823&id=48820&id=48819&id=48817&id=48815&id=48813&id=48811&id=48810&id=48800&id=48799&id=48798&id=",
+    "userAgent": "",
+    "script": "_tipzap_player"
   }
 }

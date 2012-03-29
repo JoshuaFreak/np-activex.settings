@@ -173,5 +173,12 @@
     "version": "1",
     "context": "page",
     "checksum": 2052739852
+  },
+  "_tipzap_player": {
+    "identifier": "_tipzap_player",
+    "url": "_tipzap_player.js",
+    "version": "1",
+    "context": "page",
+    "checksum": "-1390932746"
   }
 }
