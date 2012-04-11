@@ -46,7 +46,7 @@
     "url": "cmb_pay.js",
     "version": "3",
     "context": "page",
-    "checksum": -505793420
+    "checksum": "896252811"
   },
   "_bugu_patch": {
     "identifier": "_bugu_patch",

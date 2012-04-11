@@ -21,6 +21,14 @@
           InitControls();
         }
       } (ShowPayPage);
+      DoSubmit = function(orig) {
+        return function(par) {
+          if (!CardPayNo.Option) {
+            CardPayNo.Option = function() {};
+          }
+          orig(par);
+        }
+      } (DoSubmit);
     }
     if (window.OpenWnd) {
       var inputs = document.querySelectorAll('div > input[type=hidden]');
